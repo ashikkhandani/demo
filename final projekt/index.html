@@ -8,17 +8,18 @@
                
                header {     
                         display: flex;
-                    
+                        
                      }
 
                  header, main, footer {
-                                        width: 80vw;
+                                        width: 90vw;
                                         margin: 0px auto;
                                         padding: 0px auto;
                                     }
              
                            header>img {
-                                        flex-basis: 20%;
+                                        display: flex;
+                                        flex-basis:20%;
                                         border: 3px solid maroon;
                                         border-radius: 2rem;
                                     }
@@ -26,7 +27,8 @@
                                  body {
                                         background-image: url("nightsky.jpg");
                                         background-size:cover;
-                                        background-repeat: no-repeat;
+                                        background-repeat:no-repeat;
+                                        
 
                                     } 
      
@@ -71,7 +73,7 @@
                                           border-radius: 2rem;
                                           font-family:Verdana, Geneva, Tahoma, sans-serif;
                                           padding: 10px;
-                                       
+                                          
                                       }
 
                                  h2, h3 { 
@@ -96,13 +98,6 @@
                                             font-size: 2.3rem;
                                             text-align: center;                                       
                                         }
-
-
-                                 img {
-                                       border: 2px solid maroon;
-                                       padding: 10px;
-                                       
-                                    }
 
 
 
@@ -137,6 +132,12 @@
 
                                             }
 
+                                    p>img {
+                                             border: 2px solid maroon;
+                                             padding: 5px;
+                                    }
+
+
                                       footer {
                                                background-color: black;
                                                padding: 10px;
@@ -147,15 +148,17 @@
                                                color: white;
                                             }
 
-         @media screen and (max-width: 800px) {
+         @media screen and (max-width: 580px) {
                                              
                         header, main, footer, section {
-                                                    width: 100;
+                                                    width: 100%;
+                                                    height: 100%;
                                                  }
                                               
-                                              }
 
-                                p.sektionsfuss {    
+                                              }
+                                
+                                  p.sektionsfuss {    
                                                  font-family: 'Courier New', Courier, monospace;
                                                  font-weight:lighter;
                                                  font-size: 2rem;
@@ -208,7 +211,7 @@
       
                <h2 class="unterstrichen">About</h2>
  
-               <p> <img src="myphoto.jpg" alt="it's me" width="150" height="200">
+               <p> <img src="myphoto.jpg" alt="it's me" width="200" height="220">
                    I was born in Dhaka,Bangladesh,27 years old.<br>
                    I am a Food-Lover,like to eat bengali,hungarian,asian,mexican, italian foods and also the other international<br> dishes which are deleciuos and spicy as well.I brought my Childhood in my Country and living since 8 years<br>
                    in Berlin.I just love my life in Berlin.I learn the Web-development from "Digital Career Institute" in Berlin.</p>
@@ -263,7 +266,7 @@
   </main>
 
    <footer>
-    <a href="#">Privacy &amp Policy</a>
+    <a href="#">Privacy &amp Policy;</a>
    </footer>
  
     </body>
